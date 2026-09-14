@@ -3,7 +3,7 @@ const menuButton=document.querySelector('.mobile-menu'),navigation=document.quer
 document.querySelectorAll('.product-info strong').forEach((price,index)=>{price.textContent=['From KSh 25,000','From KSh 40,000','From KSh 2,000'][index]});
 document.querySelectorAll('.brand-mark').forEach(mark=>{mark.style.background='#1463d9'});
 const phone='254721522502',location='Baraka Plaza, Ground Floor, Shop G7, Kenyatta Avenue, Nakuru County',email='gichlinks30@gmail.com';
-document.querySelectorAll('a[href*="wa.me/254700000000"]').forEach(link=>{link.href=link.href.replace('254700000000',phone)});
+document.querySelectorAll('a[href*="wa.me/254721522502"]').forEach(link=>{link.href=link.href.replace('254721522502',phone)});
 document.querySelectorAll('.brand').forEach(brand=>{brand.innerHTML='<img src="gichlinks-logo.svg" alt="Gichlinks Computers logo" style="width:185px;height:auto;display:block">'});
 document.querySelector('.hero-text').textContent='Quality computers and accessories for work, school and business. Visit our Nakuru shop or order for countrywide delivery.';
 document.querySelector('.hero-proof').innerHTML='<div><strong>Countrywide</strong><span>Delivery across Kenya</span></div><div><strong>Nakuru</strong><span>Baraka Plaza, Shop G7</span></div><div><strong>Support</strong><span>Call or WhatsApp us</span></div>';
