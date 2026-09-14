@@ -1,6 +1,6 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 const menuButton=document.querySelector('.mobile-menu'),navigation=document.querySelector('.navigation');menuButton.addEventListener('click',()=>{const open=navigation.classList.toggle('open');menuButton.setAttribute('aria-expanded',open);menuButton.textContent=open?'×':'☰'});
-document.querySelectorAll('.product-info strong').forEach((price,index)=>{price.textContent=['From KSh 25,000','From KSh 40,000','From KSh 2,000'][index]});
+document.querySelectorAll('.product-info strong').forEach((price,index)=>{price.textContent=['From KSh 20,000','From KSh 28,000','From KSh 2,000'][index]});
 document.querySelectorAll('.brand-mark').forEach(mark=>{mark.style.background='#1463d9'});
 const phone='254721522502',location='Baraka Plaza, Ground Floor, Shop G7, Kenyatta Avenue, Nakuru County',email='gichlinks30@gmail.com';
 document.querySelectorAll('a[href*="wa.me/254721522502"]').forEach(link=>{link.href=link.href.replace('254721522502',phone)});
