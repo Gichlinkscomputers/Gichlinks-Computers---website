@@ -4,7 +4,7 @@ document.querySelectorAll('.product-info strong').forEach((price,index)=>{price.
 document.querySelectorAll('.brand-mark').forEach(mark=>{mark.style.background='#1463d9'});
 const phone='254721522502',location='Baraka Plaza, Ground Floor, Shop G7, Kenyatta Avenue, Nakuru County',email='gichlinks30@gmail.com';
 document.querySelectorAll('a[href*="wa.me/254700000000"]').forEach(link=>{link.href=link.href.replace('254700000000',phone)});
-document.querySelectorAll('.brand').forEach(brand=>{brand.innerHTML='<img src="images/gichlinks-logo.svg" alt="Gichlinks Computers logo" style="width:185px;height:auto;display:block">'});
+document.querySelectorAll('.brand').forEach(brand=>{brand.innerHTML='<img src="gichlinks-logo.svg" alt="Gichlinks Computers logo" style="width:185px;height:auto;display:block">'});
 document.querySelector('.hero-text').textContent='Quality computers and accessories for work, school and business. Visit our Nakuru shop or order for countrywide delivery.';
 document.querySelector('.hero-proof').innerHTML='<div><strong>Countrywide</strong><span>Delivery across Kenya</span></div><div><strong>Nakuru</strong><span>Baraka Plaza, Shop G7</span></div><div><strong>Support</strong><span>Call or WhatsApp us</span></div>';
 const productData=[['LAPTOPS','Laptops','From KSh 10,000'],['DESKTOPS','Desktop Computers','From KSh 22,000'],['PRINTERS','Epson Printers','From KSh 24,000']];
